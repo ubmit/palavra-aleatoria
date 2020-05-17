@@ -1,7 +1,7 @@
 import p from 'phin';
 
 const wordsSourceUrl =
-  'https://raw.githubusercontent.com/pythonprobr/palavras/master/palavras.txt';
+  'https://raw.githubusercontent.com/guilhermedeandrade/palavra-aleatoria/master/data/words.txt';
 
 async function fetchWords(): Promise<String[]> {
   const response = await p(wordsSourceUrl);
