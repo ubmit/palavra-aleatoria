@@ -1,5 +1,7 @@
 # Palavra Aleatória
 
+![https://www.npmjs.com/package/palavra-aleatoria](https://img.shields.io/bundlephobia/min/palavra-aleatoria?style=flat-square)
+
 A package to help you when you need a random Brazilian Portuguese word.
 
 ## Local Development
@@ -19,6 +21,13 @@ The package is optimized and bundled with Rollup into multiple formats (CommonJS
 
 Runs the test watcher (Jest) in an interactive mode.
 By default, runs tests related to files changed since the last commit.
+
+## Installation
+
+```sh
+yarn add palavra-aleatoria
+# npm i palavra-aleatoria
+```
 
 ## Usage
 
