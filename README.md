@@ -25,17 +25,21 @@ By default, runs tests related to files changed since the last commit.
 The `randomWord` function returns a promise that contains a random PT-BR word:
 
 ```ts
-import { randomWord } from 'palavra-aleatoria";
+import { randomWord } from 'palavra-aleatoria';
 
-const word = await randomWord();
-// oftalmotorrinolaringologia
+(async () => {
+  const word = await randomWord();
+  // oftalmotorrinolaringologia
+})();
 ```
 
 The `fetchWords` function returns a promise that contains an array of all PT-BR words available [here](https://github.com/pythonprobr/palavras):
 
 ```ts
-import { fetchWords } from 'palavra-aleatoria";
+import { fetchWords } from 'palavra-aleatoria';
 
-const words = await fetchWords();
-// [...]
+(async () => {
+  const words = await fetchWords();
+  // [...]
+})();
 ```
