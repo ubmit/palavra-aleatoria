@@ -40,5 +40,9 @@
   },
   "dependencies": {
     "phin": "^3.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermedeandrade/palavra-aleatoria.git"
   }
 }
